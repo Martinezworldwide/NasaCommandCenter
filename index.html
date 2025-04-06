@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NASA Command Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: radial-gradient(ellipse at center, #000010 0%, #000000 100%);
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffe0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .console-container {
+      width: 90%;
+      max-width: 1280px;
+      height: 90%;
+      background: #0a0a1f;
+      border: 4px solid #00ffe0;
+      border-radius: 16px;
+      box-shadow: 0 0 25px #00ffe0;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+
+    .console-header {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+      text-shadow: 0 0 8px #00ffe0;
+    }
+
+    iframe {
+      flex-grow: 1;
+      border: none;
+      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+      box-shadow: inset 0 0 10px #00ffe0;
+    }
+  </style>
+</head>
+<body>
+  <div class="console-container">
+    <div class="console-header">🚀 NASA Command Center</div>
+    <iframe src="https://nasa-command-center-868yocj5a.vercel.app" title="NASA Command Center"></iframe>
+  </div>
+</body>
+</html>
