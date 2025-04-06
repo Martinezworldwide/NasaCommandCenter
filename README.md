@@ -66,3 +66,13 @@ This application can also be deployed to other hosting platforms that support Ne
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- NASA for providing free, open APIs to access space data
+- [NASA API Portal](https://api.nasa.gov/) for comprehensive API documentation
+
+---
+
+Created by Sebastian Martinez | Using NASA's Open APIs | [Live Demo](https://nasa-command-center.vercel.app) 
+
